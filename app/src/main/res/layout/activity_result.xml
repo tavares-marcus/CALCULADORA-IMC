@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="16dp"
+        android:text="seu IMC é:"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"      />
+
+
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textSize="38sp"
+        tools:text="25.309"
+        />
+
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="classificacao:normal"
+        android:textSize="22sp"
+        android:textAlignment="center" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="veja a baixo a tabela:"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_dark_background"
+         />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="menor que 18,5 = abaixo do peso."
+        android:textSize="16sp"
+        android:textColor="@color/purple_500"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="entre 18.5 e 24.9 = normal."
+        android:textSize="16sp"
+        android:textColor="@color/purple_500"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="entre 25.0 e 29.9 = sobrepeso."
+        android:textSize="16sp"
+        android:textColor="@color/purple_500"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="entre 30.0 e 39.9 = obesidade."
+        android:textSize="16sp"
+        android:textColor="@color/purple_500"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="maior que 40.0 = obesidae grave"
+        android:textSize="16sp"
+        android:textColor="@color/purple_500"
+        />
+
+</LinearLayout>
